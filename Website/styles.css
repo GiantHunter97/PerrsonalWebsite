@@ -1,0 +1,82 @@
+body {
+    background-color: #272b37 !important;
+    background-size: 50%;
+}
+* {
+    border-radius: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Home {
+    /*Colors and Shape*/
+    color: #F2F0EA;
+    background-color: #2f2f7f;
+    border-radius: 15px;
+
+
+    /*============Location=============*/
+    max-width: fit-content;
+    text-align: center;
+    padding: 2px;
+    margin: 20px auto; /* Adds 20px margin top and bottom, and centers horizontally */
+    max-width: 30%;
+}
+
+.Container_2 {
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.Container_2 a {
+    color: #ffffff; /* White text for links in header */
+    text-decoration: none;
+    margin: 0 10px; /* Adds space between links */
+}
+
+.Container_2 a:hover {
+    color: #66ccff; /* Brighter blue on hover */
+}
+
+.About {
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    max-width: 500px;
+    text-align: center;
+    padding: 2px;
+    margin: 20px auto; /* Adds 20px margin top and bottom, and centers horizontally */
+    color: #cccccc; /* Light gray text for about section */
+    max-width: 50%;
+    
+}
+.division {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px; /* or any other fixed width */
+}
+
+.Download {
+    border-radius: 15px;
+    text-align: center;
+    max-width: 50px;
+    pointer-events: stroke;
+    background-color: #2f2f7f;
+    padding: 2px;
+    margin: 20px auto; /* Adds 20px margin top and bottom, and centers horizontally */
+}
+
+.Download a {
+    color: #ffffff; /* White text for links in download section */
+    text-decoration: none;
+}
+
+.Download a:hover {
+    color: #8a8aff; /* Brighter purple on hover */
+}
